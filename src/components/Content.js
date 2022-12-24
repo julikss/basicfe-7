@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import kyivImg from '../assets/kyiv.jpg';
 
 export default class Content extends Component {
     constructor(props) {
@@ -76,8 +77,8 @@ export default class Content extends Component {
                     Володимирська, її вік уже перевалив за тисячоліття!
                 </p>
 
-                <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%97%D0%B2" target="_blank">
-                    <img src="./img/kyiv.jpg" alt="Kyiv" width="500px" />
+                <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%97%D0%B2">
+                    <img src={kyivImg} style={{overflow: 'hidden', width: 500}} alt="Kyiv" width="500px" />
                 </a>
             </div>
         );
