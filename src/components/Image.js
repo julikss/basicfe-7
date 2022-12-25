@@ -37,7 +37,7 @@ function Image() {
 
     return (
         <div>
-            <div id="img-placeholder"></div>
+            <div id="img-placeholder" style={{ overflow: 'hidden', width: '500px' }}></div>
             <button onClick={addImage}>Додати</button>
             <button onClick={zoomIn}>Збільшити</button>
             <button onClick={zoomOut}>Зменшити</button>

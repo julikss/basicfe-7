@@ -1,0 +1,8 @@
+.goodsInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    list-style: none;
+    gap: 20px;
+  }
